@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+    </head>
+	<style>
+	body {
+	background: url(http://www.inkspilldesign.com/demo/wood-tile-background.jpg);
+	background-color: #424242;
+	font-family: Tahoma;
+	}
+	.display {
+	display: block;
+	margin: 15px auto;
+	height: 42px;
+	width: 174px;
+	padding: 0 10px;
+	border-radius: 4px;
+	border-top: 2px solid #C1C1C1;
+	border-right: 2px solid #C1C1C1;
+	border-bottom: 2px solid #FFF;
+	border-left: 2px solid #FFF;
+	background-color: #FFF;
+	box-shadow: inset 0px 0px 10px #030303, inset 0px -20px 1px rgba(150, 150, 150, .2);
+	font-size: 28px;
+	color: #666;
+	text-align: right;
+	font-weight: 400;
+	}
+	.button {
+	display: inline-block;
+	margin: 2px;
+	width: 42px;
+	height: 42px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 4px;
+	}
+	.mathbutton {
+	margin: 2px 2px 6px 2px;
+	color: #FFF;
+	text-shadow: -1px -1px 0px #44006F;
+	background-color: #434343;
+	border-top: 2px solid #C1C1C1;
+	border-right: 2px solid #C1C1C1;
+	border-bottom: 2px solid #181818;
+	border-left: 2px solid #181818;
+	box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #2E2E2E;
+	}
+	.digits {
+	color: #181818;
+	text-shadow: 1px 1px 0px #FFF;
+	background-color: #EBEBEB;
+	border-top: 2px solid #FFF;
+	border-right: 2px solid #FFF;
+	border-bottom: 2px solid #C1C1C1;
+	border-left: 2px solid #C1C1C1;
+	border-radius: 4px;
+	box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #DCDCDC;
+	}
+	</style>
+    <body>
+	<center>
+        <div id='calc-contain'>
+  
+          <form name="calculator">
+            
+            <input class= "display" type="text" name="answer" />
+            <br>
+            <input class= "button class" type="button" value=" 1 " onclick="calculator.answer.value += '1'" />
+            <input class= "button class" "answer" type="button" value=" 2 " onclick="calculator.answer.value += '2'" />
+            <input class= "button class" type="button" value=" 3 " onclick="calculator.answer.value += '3'" />
+            <input class= "button mathbutton" type="button" value=" + " onclick="calculator.answer.value += '+'" />
+            <br/>
+            
+            <input class= "button class" type="button" value=" 4 " onclick="calculator.answer.value += '4'" />
+            <input class= "button class" type="button" value=" 5 " onclick="calculator.answer.value += '5'" />
+            <input class= "button class" type="button" value=" 6 " onclick="calculator.answer.value += '6'" />
+            <input class= "button mathbutton"type="button" value=" - " onclick="calculator.answer.value += '-'" />
+            </br>
+          
+            <input class= "button class" type="button" value=" 7 " onclick="calculator.answer.value += '7'" />
+            <input class= "button class" type="button" value=" 8 " onclick="calculator.answer.value += '8'" />
+            <input class= "button class" type="button" value=" 9 " onclick="calculator.answer.value += '9'" />
+            <input class= "button mathbutton" type="button" value=" x " onclick="calculator.answer.value += '*'" />
+            </br>
+        
+            <input class= "button clearbutton" type="button" value=" c " onclick="calculator.answer.value = ''" />
+            <input class= "button class" type="button" value=" 0 " onclick="calculator.answer.value += '0'" />
+            <input class= "button class" type="button" value=" = " onclick="calculator.answer.value = eval		 (calculator.answer.value)" />
+            <input class= "button mathbutton" type="button" value=" / " onclick="calculator.answer.value += '/'" />
+            </br>
+          </form>
+        </div>
+	<center>
+    </body>
+</html>
