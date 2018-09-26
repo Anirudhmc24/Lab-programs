@@ -1,0 +1,26 @@
+ student {
+margin-top:15px;
+font-weight:bold;
+color:black;
+display:block;
+}
+ info {
+display:block;
+margin-left:15px;
+color:gray;
+}
+ usn, name {
+color:red;
+font-size:15pt;
+display:block;
+}
+ coll, branch {
+color:blue;
+font-size:15pt;
+display:block;
+}
+ yoj, email {
+color:green;
+font-size:15pt;
+display:block;
+}

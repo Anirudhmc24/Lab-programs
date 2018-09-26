@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+    <?xml-stylesheet type="text/css" href="prog5.css" ?>
+        <student>
+            Student 1 details:
+                <info>
+                    USN:<usn>4VV15CS007</usn>
+                    Name:<name>Aniruddh</name>
+                    College:<coll>Vidyavardhaka college of engineering</coll>
+                    Branch:<branch>CSE</branch>
+                    Year Of Joining:<yoj>2015</yoj>
+                    Email-ID:<email>anirudhmc24@gmail.com</email>
+                </info>
+            Student 2 details:
+                <info>
+                    USN:<usn>4VV15CS008</usn>
+                    Name:<name>Anusha</name>
+                    College:<coll>Vidyavardhaka college of engineering</coll>
+                    Branch:<branch>CSE</branch>
+                    Year Of Joining:<yoj>2015</yoj>
+                    Email-ID:<email>anusha@gmail.com</email>
+                </info>
+            Student 3 details:
+                <info>
+                    USN:<usn>4VV15CS009</usn>
+                    Name:<name>Anam</name>
+                    College:<coll>Vidyavardhaka college of engineering</coll>
+                    Branch:<branch>CSE</branch>
+                    Year Of Joining:<yoj>2015</yoj>
+                    Email-ID:<email>anamfathima7323@gmail.com</email>
+                </info>
+        </student>
